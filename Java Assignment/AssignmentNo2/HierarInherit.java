@@ -30,8 +30,6 @@ class Option2 extends Subject{
 	}
 }
 
-
-
 class HierarInherit{
 	public static void main(String[] args){
 		//Subjext myObj = new Subject();

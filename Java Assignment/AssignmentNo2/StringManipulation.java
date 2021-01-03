@@ -11,7 +11,7 @@ class StringManipulation{
 			System.out.println("Character at "+ i +" "+ myStr.charAt(i));
 		}
 		
-		//Inserting a sting in the middle
+		//Inserting a string in the middle
 		myStr.insert(42,", perseveance");
 		System.out.println("After inserting : "+ myStr);
 		
@@ -23,6 +23,5 @@ class StringManipulation{
 		myStr.append(" and persistence");
 		System.out.println("After appending : "+ myStr);
 		
-	
 	}
 }

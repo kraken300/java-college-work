@@ -8,7 +8,6 @@ class HotelMenu{
 		System.out.println();
 	}
 }
-
 class NonVeg extends HotelMenu{
 	void menu2(){
 		System.out.println("List of items for Non-Veg Eaters : ");
@@ -16,7 +15,6 @@ class NonVeg extends HotelMenu{
 		for(int j =0 ; j < myList2.length; j++){
 			System.out.println(myList2[j] + " ");
 		} 
-		System.out.println();
 	}
 }
 

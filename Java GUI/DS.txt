@@ -1,0 +1,4 @@
+1. What is stack? How it is different from linear data structures?
+2. Explain stack operations. Also explain overflow and underflow.
+Answer:
+

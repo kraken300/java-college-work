@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class SortedData{
+class SortData{
 	int num,temp;
 	int[] myArray;
 	
@@ -24,8 +24,8 @@ class SortedData{
 		System.out.println();
 	}
 	
-	void ascending(){
-		System.out.print("Ascending numbers are : ");
+	void asce(){
+		System.out.print("Ascending order : ");
 		for(int i = 0; i < num; i++){
 			for(int j = i+1; j < num; j++){
 				if(myArray[i] > (myArray[j])){
@@ -39,8 +39,8 @@ class SortedData{
 		System.out.println();
 	}
 	
-	void descending(){
-		System.out.print("Descending numbers are : ");
+	void desc(){
+		System.out.print("Descending order : ");
 		for(int i = 0; i < num; i++){
 			for(int j = i+1; j < num; j++){
 				if(myArray[i] < (myArray[j])){
@@ -56,10 +56,10 @@ class SortedData{
 	}
 	
 	public static void main(String[] args){
-		SortedData data = new SortedData();
+		SortData data = new SortData();
 		data.inputData();
 		data.diplayData();
-		data.ascending();
-		data.descending();
+		data.asce();
+		data.desc();
 	}
 }
